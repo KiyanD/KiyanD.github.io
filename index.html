@@ -1,17 +1,31 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>My webpage</title>
+    <title>My Weebpage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      var randomNumber = Math.floor (Math.random() * 3);
+      var phrases =[`Hello`,`Hallo`,`Bonjour`];
+      console.log(phrases[randomNumber]);
+    </script>
   </head>
   <body>
-    <h1>My Webpage</h1>
-  <p>
-<img src="img/LamarJackson.jfif" alt="Lamar Jackson"width="500" height="333" >
+    <div id="content">
+      <div id="headerBox">
+        <h1>My Weebpage</h1>
+      </div>
+      <div class="segment">
+        <img src="img/LamarJackson.JFIF" class="leftimg">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean turpis ipsum, porta eget ornare ut, semper at nulla. Duis lacinia sagittis quam, sed suscipit nunc laoreet vitae. Vestibulum auctor, augue et vehicula posuere, elit arcu facilisis mauris, in tincidunt ex dolor id purus. Nam scelerisque nunc at augue ultrices porta. Nam sit amet malesuada tellus, ac tincidunt dolor. Mauris tristique ipsum sit amet nisl auctor, et feugiat massa posuere. Nunc eleifend nibh a ante sollicitudin, eget condimentum diam scelerisque. Nam auctor vel tortor at vulputate. Aliquam tempus vehicula lectus, sed malesuada lacus tempus eu. Vivamus gravida velit ac urna scelerisque, in elementum libero imperdiet. Quisque at lacus in ex dignissim venenatis. Aenean interdum erat tincidunt commodo molestie. In vitae arcu euismod sem ultricies feugiat quis sed velit.
+        </p>
+        <p>
+          <img src="img/kid-president.jpg" class="rightimg">
 
-This is my Webpage
-</p>
-<h2>Get to the super bowl</h2>
-<a href="game.html">Click to play my game </a>
-</body>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean turpis ipsum, porta eget ornare ut, semper at nulla. Duis lacinia sagittis quam, sed suscipit nunc laoreet vitae. Vestibulum auctor, augue et vehicula posuere, elit arcu facilisis mauris, in tincidunt ex dolor id purus. Nam scelerisque nunc at augue ultrices porta. Nam sit amet malesuada tellus, ac tincidunt dolor. Mauris tristique ipsum sit amet nisl auctor, et feugiat massa posuere. Nunc eleifend nibh a ante sollicitudin, eget condimentum diam scelerisque. Nam auctor vel tortor at vulputate. Aliquam tempus vehicula lectus, sed malesuada lacus tempus eu. Vivamus gravida velit ac urna scelerisque, in elementum libero imperdiet. Quisque at lacus in ex dignissim venenatis. Aenean interdum erat tincidunt commodo molestie. In vitae arcu euismod sem ultricies feugiat quis sed velit.
+        </p>
+      </div>
+    </div class="segment">
+  </body>
 </html>
