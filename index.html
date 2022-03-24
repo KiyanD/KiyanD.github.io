@@ -1,31 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <title>My Weebpage</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-      var randomNumber = Math.floor (Math.random() * 3);
-      var phrases =[`Hello`,`Hallo`,`Bonjour`];
-      console.log(phrases[randomNumber]);
-    </script>
+    <title>Kanye West</title>
   </head>
   <body>
-    <div id="content">
-      <div id="headerBox">
-        <h1>My Weebpage</h1>
-      </div>
-      <div class="segment">
-        <img src="img/LamarJackson.JFIF" class="leftimg">
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean turpis ipsum, porta eget ornare ut, semper at nulla. Duis lacinia sagittis quam, sed suscipit nunc laoreet vitae. Vestibulum auctor, augue et vehicula posuere, elit arcu facilisis mauris, in tincidunt ex dolor id purus. Nam scelerisque nunc at augue ultrices porta. Nam sit amet malesuada tellus, ac tincidunt dolor. Mauris tristique ipsum sit amet nisl auctor, et feugiat massa posuere. Nunc eleifend nibh a ante sollicitudin, eget condimentum diam scelerisque. Nam auctor vel tortor at vulputate. Aliquam tempus vehicula lectus, sed malesuada lacus tempus eu. Vivamus gravida velit ac urna scelerisque, in elementum libero imperdiet. Quisque at lacus in ex dignissim venenatis. Aenean interdum erat tincidunt commodo molestie. In vitae arcu euismod sem ultricies feugiat quis sed velit.
-        </p>
-        <p>
-          <img src="img/kid-president.jpg" class="rightimg">
+        <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+      function openNav() {
+        var navBox = document.getElementById('menu');
+        navBox.style.display = 'block';
 
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean turpis ipsum, porta eget ornare ut, semper at nulla. Duis lacinia sagittis quam, sed suscipit nunc laoreet vitae. Vestibulum auctor, augue et vehicula posuere, elit arcu facilisis mauris, in tincidunt ex dolor id purus. Nam scelerisque nunc at augue ultrices porta. Nam sit amet malesuada tellus, ac tincidunt dolor. Mauris tristique ipsum sit amet nisl auctor, et feugiat massa posuere. Nunc eleifend nibh a ante sollicitudin, eget condimentum diam scelerisque. Nam auctor vel tortor at vulputate. Aliquam tempus vehicula lectus, sed malesuada lacus tempus eu. Vivamus gravida velit ac urna scelerisque, in elementum libero imperdiet. Quisque at lacus in ex dignissim venenatis. Aenean interdum erat tincidunt commodo molestie. In vitae arcu euismod sem ultricies feugiat quis sed velit.
-        </p>
+      }
+      function closeNav() {
+        var navBox = document.getElementById('menu');
+        navBox.style.display = 'none';
+      }
+    </script>
+    <div id="openmenu" onclick="openNav()">
+      ☰
+    </div>
+    <div  id="menu">
+      <div  id = "closemenu" class="menuItem" onclick="closeNav()">
+      <a href="#">Close menu</a>
+          </div>
+          <div class="menuItem">
+          <a href="home.html">Home</a>
+              </div>
+        <div class="menuItem">
+          <a href="game.html">Get To school 3</a>
+        </div>
+          <div class="menuItem">
+        <a href="jsfighter.html">JSFighter</a>
       </div>
-    </div class="segment">
+
   </body>
 </html>
